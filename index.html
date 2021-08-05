@@ -1,0 +1,216 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Markdown to HTML</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<style>html {
+  font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+h2 {
+}
+
+p {
+  color: red;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+</head>
+<body>
+<h1>Headings</h1>
+
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+
+<h1>Blockquotes</h1>
+
+<blockquote>
+<p>
+Blockquotes can also be nested... Blockquotes can also be nested...
+</p>
+</blockquote>
+<blockquote>
+<p>
+<blockquote>
+<p>
+...by using additional greater-than signs right next to each other...
+</p>
+</blockquote>
+</p>
+</blockquote>
+<blockquote>
+<p>
+<blockquote>
+<p>
+<blockquote>
+<p>
+...or with spaces between arrows.
+</p>
+</blockquote>
+</p>
+</blockquote>
+</p>
+</blockquote>
+
+
+<h1>Unordered lists</h1>
+
+<ul>
+<li>
+Unordered
+</li>
+<li>
+Unordered
+</li>
+<li>
+Unordered
+</li>
+</ul>
+<h1>Ordered lists</h1>
+
+<ol>
+<li>
+Ordered
+</li>
+<li>
+Ordered
+</li>
+<li>
+Ordered
+</li>
+</ol>
+
+<h1>Ordered in unordered lists</h1>
+
+<ul>
+<li>
+Unordered
+</li>
+<li>
+Unordered
+</li>
+<li>
+Unordered
+</li>
+<ol>
+<li>
+Ordered
+</li>
+<li>
+Ordered
+</li>
+</ol>
+<li>
+Unordered
+</li>
+<ol>
+<li>
+Ordered
+</li>
+<li>
+Ordered
+</li>
+</ol>
+</ul>
+<ol>
+<li>
+Unordered
+</li>
+</ol>
+<ul>
+<li>
+Unordered
+</li>
+<li>
+Unordered
+</li>
+<ol>
+<li>
+Ordered
+</li>
+<li>
+Ordered
+</li>
+</ol>
+<li>
+Unordered
+</li>
+<ol>
+<li>
+Ordered
+</li>
+<li>
+Ordered
+</li>
+</ol>
+</ul>
+
+<h1>Emphasis</h1>
+
+And <strong>bold</strong>, <em>italics</em>, and even <strong><em>italics and later bold</em></strong>. Even <del>strikethrough</del>.
+
+<h1>Horizontal rule</h1>
+<hr/> 
+<hr/> 
+
+<h1>Inline code</h1>
+
+Or inline code like <code>var foo = 'bar';</code>.
+
+<h1>Block code</h1>
+
+Block code "fences"
+
+<pre><code>public class Main {
+
+    public static void main(String[] args) throws IOException {
+
+        model.PdfCreator pdfCreator = new model.PdfCreator();
+
+        String s = model.ReadingFromFile.getFileInString();
+        s = model.HtmlBuilder.toHtmlFormat(s);
+
+        model.HtmlBuilder.saveHtmlFile("index.html", s);
+
+
+    }
+}
+</code></pre>
+
+<h1>Images</h1>
+
+Or an image of bears
+
+<p><img src="http://placebear.com/200/200" alt="bears"></p>
+
+
+
+<h1>Links</h1>
+
+<p><a href="http://google.com)">link text</a></p>
+
+    </body>
+</html>    </body>
+</html>

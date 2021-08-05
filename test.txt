@@ -1,0 +1,93 @@
+# Headings
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+
+# Blockquotes
+
+> Blockquotes can also be nested... Blockquotes can also be nested...
+> > ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
+# Unordered lists
+
+* Unordered
+* Unordered
+* Unordered
+
+# Ordered lists
+
+1. Ordered
+1. Ordered
+1. Ordered
+
+# Ordered in unordered lists
+
+* Unordered
+* Unordered
+* Unordered
+1. Ordered
+1. Ordered
+* Unordered
+1. Ordered
+1. Ordered
+
+1. Unordered
+* Unordered
+* Unordered
+1. Ordered
+1. Ordered
+* Unordered
+1. Ordered
+1. Ordered
+
+
+# Emphasis
+
+And **bold**, _italics_, and even ***italics and later bold***. Even ~~strikethrough~~.
+
+# Horizontal rule
+---
+---
+
+# Inline code
+
+Or inline code like `var foo = 'bar';`.
+
+# Block code
+
+Block code "fences"
+
+```
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+
+        model.PdfCreator pdfCreator = new model.PdfCreator();
+
+        String s = model.ReadingFromFile.getFileInString();
+        s = model.HtmlBuilder.toHtmlFormat(s);
+
+        model.HtmlBuilder.saveHtmlFile("index.html", s);
+
+
+    }
+}
+
+```
+
+# Images
+
+Or an image of bears
+
+![bears](http://placebear.com/200/200)
+
+
+# Links
+
+[link text](http://google.com)
