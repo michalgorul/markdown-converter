@@ -1,5 +1,5 @@
 # MarkDown Converter
-MarkDown to html and pdf converter. Simple GUI was written using java swing
+MarkDown to html and pdf converter. Simple GUI was written using java swing. The main goal of this project was to gain some experience in using regex.
 
 ## GUI design
 
@@ -35,6 +35,10 @@ public class SavePdfFileListener implements ActionListener {
 
 ```java
 public static String images(String s) {
-    return s.replaceAll("!\\[(\\S*)]\\((\\S*)\\)", "<p><img src=\"$2\" alt=\"$1\"></p>\n");
+        return s.replaceAll("!\\[(\\S*)]\\((\\S*)\\)", "<p><img src=\"$2\" alt=\"$1\"></p>\n");
+}
+
+public static String links(String s) {
+        return s.replaceAll("\\[(.*?)]\\((\\S*)", "<p><a href=\"$2\">$1</a></p>\n");
 }
 ```
